@@ -1,0 +1,75 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("img.jpg");
+	
+	background-size: cover;
+}
+
+#header{
+	
+	width: 280px;
+	text-align: center;
+	height: 180px;
+	
+}
+
+div{
+	height: 40px;
+	
+}
+
+div ul {
+    list-style-type: none;
+    margin: 60px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 10px 10px gray;
+}
+
+div li {
+    float: left;
+}
+ li a {
+    display: inline-block;
+    color: gray;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: lightblue;
+}
+
+.active{
+	background-color: lightblue;
+}
+
+
+main{
+	height: 400px;
+}
+
+#left{
+	width: 200px;
+	float: left;
+	
+	height: 350px;
+}
+
+#content{
+	float: left;
+}
+
+
+#footer{
+	height: 25px;
+	text-align: center;
+	
+	padding-top: 50px;
+}
+
+
